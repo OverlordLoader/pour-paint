@@ -33,3 +33,10 @@
   Release workflow saved to `~/workspace/your_files/pourpaint-apple-release.yml`
   for Henry to upload (uses the dedicated `app-store-release-pourpaint`
   environment).
+
+
+## September 30, 2026 - Independent source verification
+
+Declared the app-scoped UserDefaults required-reason API (CA92.1), based on the app's actual preferences and local save calls. This does not certify App Store privacy answers or third-party SDK behavior. Final signed archive privacy reports and actual-device/network behavior remain release gates.
+Fixed unquoted spaced display names in both the Xcode project and its generator.
+Added the missing pinned, manually dispatched release workflow with upload off by default and a dedicated release environment. No workflow dispatched.

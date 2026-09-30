@@ -77,3 +77,10 @@ Each Extra Pours refill adds +2 pours to the current level. Rewarded ads grant
   juice (pour streams, particles, SFX, haptics), monetization (AdMob rewarded
   + interstitial, StoreKit 2 Remove Ads + Extra Pours 10-pack, settings
   store), icon set, privacy manifest, release scripts + workflow.
+
+
+## September 30, 2026 - Independent source verification
+
+Declared the app-scoped UserDefaults required-reason API (CA92.1), based on the app's actual preferences and local save calls. This does not certify App Store privacy answers or third-party SDK behavior. Final signed archive privacy reports and actual-device/network behavior remain release gates.
+Fixed unquoted spaced display names in both the Xcode project and its generator.
+Added the missing pinned, manually dispatched release workflow with upload off by default and a dedicated release environment. No workflow dispatched.

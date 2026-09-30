@@ -281,7 +281,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "PourPaint/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pour Paint;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pour Paint";
 				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
 				INFOPLIST_KEY_UIDeviceFamily = "1,2";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
@@ -312,7 +312,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "PourPaint/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pour Paint;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pour Paint";
 				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
 				INFOPLIST_KEY_UIDeviceFamily = "1,2";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
