@@ -1,3 +1,7 @@
+## 2026-09-30 - Match installed Google Mobile Ads11 presentation labels
+
+Actual native compilation rejected the newer from: labels. Use fromRootViewController: for rewarded and interstitial presentation against the pinned11.x package.
+
 ## 2026-09-30 — Unsigned native simulator verification
 
 Added a free public macOS compile/startup workflow, evidence capture, and a shared Xcode scheme where missing. Supports opening the existing game on Henry's MacBook without App Store submission. No paid service, signing or purchase. Build status is reported separately from full gameplay acceptance.
