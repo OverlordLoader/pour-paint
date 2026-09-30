@@ -125,3 +125,10 @@ The release pipeline mirrors Henry's other iOS apps:
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md). Design intent lives in [VISION.md](VISION.md).
+
+
+## Current launch-review status (September 30, 2026)
+
+The source and manual release workflow are now versioned in this repository. Earlier instructions to create the repository or manually upload a workflow from Muse's separate workspace are superseded. Signing stays manual, upload defaults to off, and no App Store submission has occurred.
+
+Privacy declarations must be reconciled with the signed archive and actual SDK/server behavior. The absence of an ATT prompt does not prove the absence of tracking or collection. Do not copy a Device-ID-only declaration into App Store Connect as a complete audit. App-scoped UserDefaults access is declared using CA92.1. Native build, device, purchase and legal acceptance remain open.
