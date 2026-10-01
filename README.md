@@ -125,3 +125,9 @@ The release pipeline mirrors Henry's other iOS apps:
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md). Design intent lives in [VISION.md](VISION.md).
+
+## Official app icon
+
+The approved artwork is stored in artwork/app-icon.png (1024 x 1024, opaque RGB PNG). The AppIcon catalog includes all eight iPhone size/scale entries and the App Store marketing icon. iOS applies the rounded corners.
+
+Install Pillow and run python scripts/generate_icons.py to regenerate the icon sizes from the approved master. The generator preserves the artwork. A new app build is needed for the change to appear on devices or the App Store.
