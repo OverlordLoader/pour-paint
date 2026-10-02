@@ -84,3 +84,7 @@ Each Extra Pours refill adds +2 pours to the current level. Rewarded ads grant
 Declared the app-scoped UserDefaults required-reason API (CA92.1), based on the app's actual preferences and local save calls. This does not certify App Store privacy answers or third-party SDK behavior. Final signed archive privacy reports and actual-device/network behavior remain release gates.
 Fixed unquoted spaced display names in both the Xcode project and its generator.
 Added the missing pinned, manually dispatched release workflow with upload off by default and a dedicated release environment. No workflow dispatched.
+
+## October 2, 2026 - Review PR #1 merged
+
+- 2026-10-02: PR #1 "fix: prepare native sources and privacy for launch review" merged to main - Launch review prep: native sources, privacy declarations, and official approved icons. Merge commit acfc2d3236e42d014cf544939ded7529de2d2ba2.
