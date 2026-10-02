@@ -1,3 +1,11 @@
+## 2026-09-30 - Match installed Google Mobile Ads11 presentation labels
+
+Actual native compilation rejected the newer from: labels. Use fromRootViewController: for rewarded and interstitial presentation against the pinned11.x package.
+
+## 2026-09-30 — Unsigned native simulator verification
+
+Added a free public macOS compile/startup workflow, evidence capture, and a shared Xcode scheme where missing. Supports opening the existing game on Henry's MacBook without App Store submission. No paid service, signing or purchase. Build status is reported separately from full gameplay acceptance.
+
 # Changelog
 
 ## 2026-09-29 — Initial build (milestone 1 + monetization)
@@ -33,3 +41,10 @@
   Release workflow saved to `~/workspace/your_files/pourpaint-apple-release.yml`
   for Henry to upload (uses the dedicated `app-store-release-pourpaint`
   environment).
+
+
+## September 30, 2026 - Independent source verification
+
+Declared the app-scoped UserDefaults required-reason API (CA92.1), based on the app's actual preferences and local save calls. This does not certify App Store privacy answers or third-party SDK behavior. Final signed archive privacy reports and actual-device/network behavior remain release gates.
+Fixed unquoted spaced display names in both the Xcode project and its generator.
+Added the missing pinned, manually dispatched release workflow with upload off by default and a dedicated release environment. No workflow dispatched.
